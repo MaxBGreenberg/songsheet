@@ -167,15 +167,8 @@
   }
 
 \setcounter{secnumdepth}{3}
-\newcounter {part}
-\renewcommand \thepart {\@Roman\c@part}
+\newcounter {section}
 \renewcommand \thesection {\@arabic\c@section}
-\newcommand\part{%
-   \if@noskipsec \leavevmode \fi
-   \par
-   \addvspace{4ex}%
-   \@afterindentfalse
-   \secdef\@part\@spart}
 
 \def\@part[#1]#2{%
     \ifnum \c@secnumdepth >\m@ne
