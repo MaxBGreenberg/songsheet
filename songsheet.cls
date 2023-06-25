@@ -522,7 +522,7 @@
   \onecolumn
 \fi
 
-\RequirePackage{longtable}                      % Table spanning multiple pages
+\RequirePackage{fullpage}
 \RequirePackage{polyglossia}			% Multilingual, bidirectional tysetting with .otf and .ttf fonts
 \setmainlanguage{hebrew}			% Sets main language to Hebrew
 
